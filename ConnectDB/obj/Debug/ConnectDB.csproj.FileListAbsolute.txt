@@ -19,3 +19,11 @@ C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\bin\Debu
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.dll
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\bin\Debug\ConnectDB.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\bin\Debug\ConnectDB.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\bin\Debug\Objects.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\bin\Debug\Objects.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.csprojAssemblyReference.cache
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.csproj.CopyComplete
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\ConnectDB\obj\Debug\ConnectDB.pdb

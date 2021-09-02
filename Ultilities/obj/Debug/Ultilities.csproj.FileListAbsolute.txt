@@ -25,3 +25,13 @@ C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Deb
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.dll
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\Ultilities.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\Ultilities.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\ConnectDB.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\Objects.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\ConnectDB.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\bin\Debug\Objects.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.csprojAssemblyReference.cache
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.csproj.CopyComplete
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Ultilities\obj\Debug\Ultilities.pdb

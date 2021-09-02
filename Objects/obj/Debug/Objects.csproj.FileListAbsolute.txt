@@ -13,3 +13,8 @@ C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Objects\bin\Debug\
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\Objects.dll
 C:\Users\Administrator\Desktop\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\Objects.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Objects\bin\Debug\Objects.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Objects\bin\Debug\Objects.pdb
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\Objects.csprojAssemblyReference.cache
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\Objects.dll
+C:\Users\Nguyen Dinh Anh Vu\Desktop\Finished\PRO302\PRO302\PROJECT\Code\PROJECT_CTMAYTINH\Objects\obj\Debug\Objects.pdb

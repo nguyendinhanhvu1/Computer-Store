@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HOADON_CHITIET" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=POKE251-PC;Initial Catalog=CSDL_PROJECT_CTMAYTINH;User ID=admin;Password=admin" IsAppSettingsProperty="false" Modifier="Assembly" Name="Connection" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CSDL_PROJECT_CTMAYTINHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CSDL_PROJECT_CTMAYTINHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CTMAYTINH_PROJECT.Properties.Settings.GlobalReference.Default.CSDL_PROJECT_CTMAYTINHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CHI_TIET_HOA_DONAdapter" GeneratorDataComponentClassName="CHI_TIET_HOA_DONAdapter" Name="CHI_TIET_HOA_DON" UserDataComponentName="CHI_TIET_HOA_DONAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CSDL_PROJECT_CTMAYTINHConnectionString (Settings)" DbObjectName="CSDL_PROJECT_CTMAYTINH.dbo.CHI_TIET_HOA_DON" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID_HOADON, ID_PHIEUHANG, NGAYLAP, TENNHANVIEN, ID_SANPHAM, SOLUONG, TEN, ID_KHACHHANG, GIA, TEN_SP, TIEN FROM dbo.CHI_TIET_HOA_DON</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_HOADON" DataSetColumn="ID_HOADON" />
+              <Mapping SourceColumn="ID_PHIEUHANG" DataSetColumn="ID_PHIEUHANG" />
+              <Mapping SourceColumn="NGAYLAP" DataSetColumn="NGAYLAP" />
+              <Mapping SourceColumn="TENNHANVIEN" DataSetColumn="TENNHANVIEN" />
+              <Mapping SourceColumn="ID_SANPHAM" DataSetColumn="ID_SANPHAM" />
+              <Mapping SourceColumn="SOLUONG" DataSetColumn="SOLUONG" />
+              <Mapping SourceColumn="TEN" DataSetColumn="TEN" />
+              <Mapping SourceColumn="ID_KHACHHANG" DataSetColumn="ID_KHACHHANG" />
+              <Mapping SourceColumn="GIA" DataSetColumn="GIA" />
+              <Mapping SourceColumn="TEN_SP" DataSetColumn="TEN_SP" />
+              <Mapping SourceColumn="TIEN" DataSetColumn="TIEN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HOADON_CHITIET" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="HOADON_CHITIET" msprop:Generator_UserDSName="HOADON_CHITIET">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CHI_TIET_HOA_DON" msprop:Generator_TableClassName="CHI_TIET_HOA_DONDataTable" msprop:Generator_TableVarName="tableCHI_TIET_HOA_DON" msprop:Generator_TablePropName="CHI_TIET_HOA_DON" msprop:Generator_RowDeletingName="CHI_TIET_HOA_DONRowDeleting" msprop:Generator_UserTableName="CHI_TIET_HOA_DON" msprop:Generator_RowChangingName="CHI_TIET_HOA_DONRowChanging" msprop:Generator_RowEvHandlerName="CHI_TIET_HOA_DONRowChangeEventHandler" msprop:Generator_RowDeletedName="CHI_TIET_HOA_DONRowDeleted" msprop:Generator_RowEvArgName="CHI_TIET_HOA_DONRowChangeEvent" msprop:Generator_RowChangedName="CHI_TIET_HOA_DONRowChanged" msprop:Generator_RowClassName="CHI_TIET_HOA_DONRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_HOADON" msprop:Generator_ColumnVarNameInTable="columnID_HOADON" msprop:Generator_ColumnPropNameInRow="ID_HOADON" msprop:Generator_ColumnPropNameInTable="ID_HOADONColumn" msprop:Generator_UserColumnName="ID_HOADON" type="xs:int" />
+              <xs:element name="ID_PHIEUHANG" msprop:Generator_ColumnVarNameInTable="columnID_PHIEUHANG" msprop:Generator_ColumnPropNameInRow="ID_PHIEUHANG" msprop:Generator_ColumnPropNameInTable="ID_PHIEUHANGColumn" msprop:Generator_UserColumnName="ID_PHIEUHANG" type="xs:int" />
+              <xs:element name="NGAYLAP" msprop:Generator_ColumnVarNameInTable="columnNGAYLAP" msprop:Generator_ColumnPropNameInRow="NGAYLAP" msprop:Generator_ColumnPropNameInTable="NGAYLAPColumn" msprop:Generator_UserColumnName="NGAYLAP" type="xs:dateTime" />
+              <xs:element name="TENNHANVIEN" msprop:Generator_ColumnVarNameInTable="columnTENNHANVIEN" msprop:Generator_ColumnPropNameInRow="TENNHANVIEN" msprop:Generator_ColumnPropNameInTable="TENNHANVIENColumn" msprop:Generator_UserColumnName="TENNHANVIEN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_SANPHAM" msprop:Generator_ColumnVarNameInTable="columnID_SANPHAM" msprop:Generator_ColumnPropNameInRow="ID_SANPHAM" msprop:Generator_ColumnPropNameInTable="ID_SANPHAMColumn" msprop:Generator_UserColumnName="ID_SANPHAM" type="xs:int" />
+              <xs:element name="SOLUONG" msprop:Generator_ColumnVarNameInTable="columnSOLUONG" msprop:Generator_ColumnPropNameInRow="SOLUONG" msprop:Generator_ColumnPropNameInTable="SOLUONGColumn" msprop:Generator_UserColumnName="SOLUONG" type="xs:int" />
+              <xs:element name="TEN" msprop:Generator_ColumnVarNameInTable="columnTEN" msprop:Generator_ColumnPropNameInRow="TEN" msprop:Generator_ColumnPropNameInTable="TENColumn" msprop:Generator_UserColumnName="TEN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_KHACHHANG" msprop:Generator_ColumnVarNameInTable="columnID_KHACHHANG" msprop:Generator_ColumnPropNameInRow="ID_KHACHHANG" msprop:Generator_ColumnPropNameInTable="ID_KHACHHANGColumn" msprop:Generator_UserColumnName="ID_KHACHHANG" type="xs:int" />
+              <xs:element name="GIA" msprop:Generator_ColumnVarNameInTable="columnGIA" msprop:Generator_ColumnPropNameInRow="GIA" msprop:Generator_ColumnPropNameInTable="GIAColumn" msprop:Generator_UserColumnName="GIA" type="xs:decimal" />
+              <xs:element name="TEN_SP" msprop:Generator_ColumnVarNameInTable="columnTEN_SP" msprop:Generator_ColumnPropNameInRow="TEN_SP" msprop:Generator_ColumnPropNameInTable="TEN_SPColumn" msprop:Generator_UserColumnName="TEN_SP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIEN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTIEN" msprop:Generator_ColumnPropNameInRow="TIEN" msprop:Generator_ColumnPropNameInTable="TIENColumn" msprop:Generator_UserColumnName="TIEN" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

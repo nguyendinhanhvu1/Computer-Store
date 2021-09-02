@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PHIEU_HANG_CHI_TIET" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=POKE251-PC;Initial Catalog=CSDL_PROJECT_CTMAYTINH;User ID=admin;Password=admin" IsAppSettingsProperty="false" Modifier="Assembly" Name="Connection" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CSDL_PROJECT_CTMAYTINHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CSDL_PROJECT_CTMAYTINHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CTMAYTINH_PROJECT.Properties.Settings.GlobalReference.Default.CSDL_PROJECT_CTMAYTINHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CHI_TIET_PHIEU_HANGAdapter" GeneratorDataComponentClassName="CHI_TIET_PHIEU_HANGAdapter" Name="CHI_TIET_PHIEU_HANG" UserDataComponentName="CHI_TIET_PHIEU_HANGAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CSDL_PROJECT_CTMAYTINHConnectionString (Settings)" DbObjectName="CSDL_PROJECT_CTMAYTINH.dbo.CHI_TIET_PHIEU_HANG" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID_PHIEUHANG, NGAYLAP, TENNHANVIEN, ID_NHANVIEN, ID_SANPHAM, TEN_SP, SOLUONG, GIA, THANHTIEN FROM dbo.CHI_TIET_PHIEU_HANG</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_PHIEUHANG" DataSetColumn="ID_PHIEUHANG" />
+              <Mapping SourceColumn="NGAYLAP" DataSetColumn="NGAYLAP" />
+              <Mapping SourceColumn="TENNHANVIEN" DataSetColumn="TENNHANVIEN" />
+              <Mapping SourceColumn="ID_NHANVIEN" DataSetColumn="ID_NHANVIEN" />
+              <Mapping SourceColumn="ID_SANPHAM" DataSetColumn="ID_SANPHAM" />
+              <Mapping SourceColumn="TEN_SP" DataSetColumn="TEN_SP" />
+              <Mapping SourceColumn="SOLUONG" DataSetColumn="SOLUONG" />
+              <Mapping SourceColumn="GIA" DataSetColumn="GIA" />
+              <Mapping SourceColumn="THANHTIEN" DataSetColumn="THANHTIEN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PHIEU_HANG_CHI_TIET" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="PHIEU_HANG_CHI_TIET" msprop:Generator_UserDSName="PHIEU_HANG_CHI_TIET">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CHI_TIET_PHIEU_HANG" msprop:Generator_TableClassName="CHI_TIET_PHIEU_HANGDataTable" msprop:Generator_TableVarName="tableCHI_TIET_PHIEU_HANG" msprop:Generator_TablePropName="CHI_TIET_PHIEU_HANG" msprop:Generator_RowDeletingName="CHI_TIET_PHIEU_HANGRowDeleting" msprop:Generator_UserTableName="CHI_TIET_PHIEU_HANG" msprop:Generator_RowChangingName="CHI_TIET_PHIEU_HANGRowChanging" msprop:Generator_RowEvHandlerName="CHI_TIET_PHIEU_HANGRowChangeEventHandler" msprop:Generator_RowDeletedName="CHI_TIET_PHIEU_HANGRowDeleted" msprop:Generator_RowEvArgName="CHI_TIET_PHIEU_HANGRowChangeEvent" msprop:Generator_RowChangedName="CHI_TIET_PHIEU_HANGRowChanged" msprop:Generator_RowClassName="CHI_TIET_PHIEU_HANGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_PHIEUHANG" msprop:Generator_ColumnVarNameInTable="columnID_PHIEUHANG" msprop:Generator_ColumnPropNameInRow="ID_PHIEUHANG" msprop:Generator_ColumnPropNameInTable="ID_PHIEUHANGColumn" msprop:Generator_UserColumnName="ID_PHIEUHANG" type="xs:int" />
+              <xs:element name="NGAYLAP" msprop:Generator_ColumnVarNameInTable="columnNGAYLAP" msprop:Generator_ColumnPropNameInRow="NGAYLAP" msprop:Generator_ColumnPropNameInTable="NGAYLAPColumn" msprop:Generator_UserColumnName="NGAYLAP" type="xs:dateTime" />
+              <xs:element name="TENNHANVIEN" msprop:Generator_ColumnVarNameInTable="columnTENNHANVIEN" msprop:Generator_ColumnPropNameInRow="TENNHANVIEN" msprop:Generator_ColumnPropNameInTable="TENNHANVIENColumn" msprop:Generator_UserColumnName="TENNHANVIEN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_NHANVIEN" msprop:Generator_ColumnVarNameInTable="columnID_NHANVIEN" msprop:Generator_ColumnPropNameInRow="ID_NHANVIEN" msprop:Generator_ColumnPropNameInTable="ID_NHANVIENColumn" msprop:Generator_UserColumnName="ID_NHANVIEN" type="xs:short" />
+              <xs:element name="ID_SANPHAM" msprop:Generator_ColumnVarNameInTable="columnID_SANPHAM" msprop:Generator_ColumnPropNameInRow="ID_SANPHAM" msprop:Generator_ColumnPropNameInTable="ID_SANPHAMColumn" msprop:Generator_UserColumnName="ID_SANPHAM" type="xs:int" />
+              <xs:element name="TEN_SP" msprop:Generator_ColumnVarNameInTable="columnTEN_SP" msprop:Generator_ColumnPropNameInRow="TEN_SP" msprop:Generator_ColumnPropNameInTable="TEN_SPColumn" msprop:Generator_UserColumnName="TEN_SP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOLUONG" msprop:Generator_ColumnVarNameInTable="columnSOLUONG" msprop:Generator_ColumnPropNameInRow="SOLUONG" msprop:Generator_ColumnPropNameInTable="SOLUONGColumn" msprop:Generator_UserColumnName="SOLUONG" type="xs:int" />
+              <xs:element name="GIA" msprop:Generator_ColumnVarNameInTable="columnGIA" msprop:Generator_ColumnPropNameInRow="GIA" msprop:Generator_ColumnPropNameInTable="GIAColumn" msprop:Generator_UserColumnName="GIA" type="xs:decimal" />
+              <xs:element name="THANHTIEN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTHANHTIEN" msprop:Generator_ColumnPropNameInRow="THANHTIEN" msprop:Generator_ColumnPropNameInTable="THANHTIENColumn" msprop:Generator_UserColumnName="THANHTIEN" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

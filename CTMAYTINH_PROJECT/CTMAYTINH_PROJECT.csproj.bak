@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CDB7DC21-B9A5-4F85-AB95-F72CE0050A39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CTMAYTINH_PROJECT</RootNamespace>
+    <AssemblyName>CTMAYTINH_PROJECT</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconedit.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSDL_PROJECT_CTMAYTINHDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSDL_PROJECT_CTMAYTINHDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoaDon.Designer.cs">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoaDon_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoaDon_Detail.Designer.cs">
+      <DependentUpon>frmHoaDon_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.Designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetNoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetNoi.Designer.cs">
+      <DependentUpon>frmKetNoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoaiSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoaiSP.Designer.cs">
+      <DependentUpon>frmLoaiSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhaPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhaPP.Designer.cs">
+      <DependentUpon>frmNhaPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuHang.Designer.cs">
+      <DependentUpon>frmPhieuHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuHang_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuHang_Detail.Designer.cs">
+      <DependentUpon>frmPhieuHang_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSanPham.Designer.cs">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimMatKhau.Designer.cs">
+      <DependentUpon>frmTimMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVaiTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVaiTro.Designer.cs">
+      <DependentUpon>frmVaiTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKho.Designer.cs">
+      <DependentUpon>frmKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoaiKhach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoaiKhach.Designer.cs">
+      <DependentUpon>frmLoaiKhach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOADON_CHITIET.cs">
+      <DependentUpon>HOADON_CHITIET.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HOADON_CHITIET.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HOADON_CHITIET.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HOADON_REPORT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HOADON_REPORT.Designer.cs">
+      <DependentUpon>HOADON_REPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHIEU_HANG_CHITIET_REPORT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PHIEU_HANG_CHITIET_REPORT.Designer.cs">
+      <DependentUpon>PHIEU_HANG_CHITIET_REPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHIEU_HANG_CHI_TIET.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PHIEU_HANG_CHI_TIET.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmHoaDon.resx">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoaDon_Detail.resx">
+      <DependentUpon>frmHoaDon_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetNoi.resx">
+      <DependentUpon>frmKetNoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoaiSP.resx">
+      <DependentUpon>frmLoaiSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhaPP.resx">
+      <DependentUpon>frmNhaPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuHang.resx">
+      <DependentUpon>frmPhieuHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuHang_Detail.resx">
+      <DependentUpon>frmPhieuHang_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSanPham.resx">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimMatKhau.resx">
+      <DependentUpon>frmTimMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVaiTro.resx">
+      <DependentUpon>frmVaiTro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKho.resx">
+      <DependentUpon>frmKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoaiKhach.resx">
+      <DependentUpon>frmLoaiKhach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOADON_REPORT.resx">
+      <DependentUpon>HOADON_REPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHIEU_HANG_CHITIET_REPORT.resx">
+      <DependentUpon>PHIEU_HANG_CHITIET_REPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CSDL_PROJECT_CTMAYTINHDataSet.xsc">
+      <DependentUpon>CSDL_PROJECT_CTMAYTINHDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CSDL_PROJECT_CTMAYTINHDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CSDL_PROJECT_CTMAYTINHDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CSDL_PROJECT_CTMAYTINHDataSet.xss">
+      <DependentUpon>CSDL_PROJECT_CTMAYTINHDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HOADON_CHITIET.xsc">
+      <DependentUpon>HOADON_CHITIET.xsd</DependentUpon>
+    </None>
+    <None Include="HOADON_CHITIET.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HOADON_CHITIET.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HOADON_CHITIET.xss">
+      <DependentUpon>HOADON_CHITIET.xsd</DependentUpon>
+    </None>
+    <None Include="PHIEU_HANG_CHI_TIET.xsc">
+      <DependentUpon>PHIEU_HANG_CHI_TIET.xsd</DependentUpon>
+    </None>
+    <None Include="PHIEU_HANG_CHI_TIET.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PHIEU_HANG_CHI_TIET.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PHIEU_HANG_CHI_TIET.xss">
+      <DependentUpon>PHIEU_HANG_CHI_TIET.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Objects\Objects.csproj">
+      <Project>{8FE65FF8-A6B4-497B-9678-C84A5B527F8A}</Project>
+      <Name>Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ultilities\Ultilities.csproj">
+      <Project>{AC0FECC6-EC8E-40F6-AD93-BBA5996A9435}</Project>
+      <Name>Ultilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon 3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon 3d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Refresh-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Status-dialog-information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-history-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document-Preview-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-window-close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign-LogOff-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner ngnang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iconedit.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
